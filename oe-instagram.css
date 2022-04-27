@@ -1,0 +1,89 @@
+:root{
+    --preto: #000000;
+    --azul_claro: #50A1CA;
+    --laranja: #D06B31;
+    --branco: #FFFFFF;
+    --verde: #008000;
+
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto);
+    
+}
+
+body {
+    font-weight: 200;
+	font-family: 'Saira Condensed', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header .logo {
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    
+    
+    width: 350px;
+}
+
+header h1 {
+    color: var(--laranja);
+
+    font-size: 2.8rem;
+}
+
+main .botoes_redirecionamento {
+    margin-top: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+main .botao {
+    font-size: 2em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    width: 80vw;
+
+    background-color: var(--preto);
+    color: var(--azul_claro);
+
+    border-color: var(--azul_claro);
+    border: solid;
+    border-radius: 35px;
+
+    transition: .5s;
+
+    cursor: pointer;
+}
+
+main .botao:hover {
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.redes_sociais_icones {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10vh;
+    margin-bottom: 18vh;
+
+    
+}
+
+.redes_sociais_icones i {
+    --fa-beat-scale: 1.6;
+    color: var(--branco);   
+}
+
+footer {
+    color: var(--branco);
+}
