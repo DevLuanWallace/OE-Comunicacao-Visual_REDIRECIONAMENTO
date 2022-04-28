@@ -25,16 +25,16 @@ header{
 
 header .logo {
     padding-top: 10vh;
-    padding-bottom: 7vh;
+    padding-bottom: 1vh;
     
     
-    width: 350px;
+    width: 500px;
 }
 
 header h1 {
     color: var(--laranja);
 
-    font-size: 2.8rem;
+    font-size: 5rem;
 }
 
 main .botoes_redirecionamento {
@@ -42,15 +42,15 @@ main .botoes_redirecionamento {
 
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    gap: 4vh;
 }
 
 main .botao {
-    font-size: 2em;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    font-size: 2.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-    width: 80vw;
+    width: 90vw;
 
     background-color: var(--preto);
     color: var(--azul_claro);
@@ -72,7 +72,7 @@ main .botao:hover {
 .redes_sociais_icones {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 250px;
     margin-top: 10vh;
     margin-bottom: 18vh;
 
@@ -80,8 +80,10 @@ main .botao:hover {
 }
 
 .redes_sociais_icones i {
-    --fa-beat-scale: 1.6;
+    --fa-beat-scale: 3.6;
+    --fa-animation-duration: 2s;
     color: var(--branco);   
+    
 }
 
 footer {
