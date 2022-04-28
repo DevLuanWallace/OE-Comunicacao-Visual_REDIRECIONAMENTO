@@ -52,10 +52,10 @@ main .botao {
 
     width: 95vw;
 
-    background-color: var(--preto);
-    color: var(--azul_claro);
+    background-color: var(--azul_claro);
+    color: var(--preto);
 
-    border-color: var(--azul_claro);
+    border-color: var(--preto);
     border: solid;
     border-radius: 35px;
 
@@ -80,13 +80,17 @@ main .botao:hover {
 }
 
 .redes_sociais_icones i {
-    --fa-beat-scale: 3.6;
-    --fa-animation-duration: 2s;
+    --fa-beat-scale: 1.08;
+    --fa-animation-duration: 4s;
     color: var(--branco);   
     
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    
     color: var(--branco);
     margin-bottom: 50px;
+    
 }
