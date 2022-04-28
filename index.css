@@ -5,14 +5,15 @@
     --laranja: #D06B31;
     --branco: #FFFFFF;
     --verde: #008000;
-    --cinza_escuro: #212121;
+    --cinza_escuro: #121212;
+    --cinza_escuro2: #212121;
 
 }
 
 html {
     display: flex;
     justify-content: center;
-    background-color: var(--preto);
+    background-color: var(--cinza_escuro);
     
 }
 
@@ -59,7 +60,7 @@ main .botao {
 
     width: 95vw;
 
-    background-color: var(--preto);
+    background-color: var(--cinza_escuro2);
     color: var(--azul_claro);
 
     border-color: var(--azul_claro);
