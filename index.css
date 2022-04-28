@@ -4,13 +4,14 @@
     --laranja: #D06B31;
     --branco: #FFFFFF;
     --verde: #008000;
+    --cinza_escuro: #212121;
 
 }
 
 html {
     display: flex;
     justify-content: center;
-    background-color: var(--preto);
+    background-color: var(--cinza_escuro);
     
 }
 
