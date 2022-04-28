@@ -1,6 +1,7 @@
 :root{
     --preto: #000000;
     --azul_claro: #50A1CA;
+    --azul_escuro: #627D98;
     --laranja: #D06B31;
     --branco: #FFFFFF;
     --verde: #008000;
@@ -11,7 +12,7 @@
 html {
     display: flex;
     justify-content: center;
-    background-color: var(--cinza_escuro);
+    background-color: var(--preto);
     
 }
 
@@ -32,11 +33,16 @@ header .logo {
     width: 500px;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header h1 {
     color: var(--laranja);
 
-    font-size: 5rem;
+    font-size: 5rem
 }
+
 
 main .botoes_redirecionamento {
     margin-top: 10vh;
@@ -53,12 +59,15 @@ main .botao {
 
     width: 95vw;
 
-    background-color: var(--azul_claro);
-    color: var(--preto);
+    background-color: var(--preto);
+    color: var(--azul_claro);
 
-    border-color: var(--preto);
-    border: solid;
+    border-color: var(--azul_claro);
+    border-style: solid;
     border-radius: 35px;
+    border-width: 4px;
+
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.2);
 
     transition: .5s;
 
@@ -66,8 +75,8 @@ main .botao {
 }
 
 main .botao:hover {
-    background-color: var(--branco);
-    color: var(--preto);
+    background-color: var(--azul_claro);
+    color: var(--branco);
 }
 
 .redes_sociais_icones {
@@ -81,8 +90,8 @@ main .botao:hover {
 }
 
 .redes_sociais_icones i {
-    --fa-beat-scale: 1.08;
-    --fa-animation-duration: 4s;
+    --fa-beat-scale: 1.1;
+    --fa-animation-duration: 3.5s;
     color: var(--branco);   
     
 }
